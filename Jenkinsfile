@@ -6,6 +6,11 @@ pipeline {
 				echo "build"
 			}
 		}
+		stage ("Test") {
+			steps {
+				echo "Test"
+			}
+		}
 	}
 
 }
