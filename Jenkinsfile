@@ -1,7 +1,7 @@
 pipeline {
 	//agent any
 	agent {
-		docker { image 'registry.hub.docker.com/library/node:latest'}
+		docker { image 'node:latest'}
 	}
 	stages {
 		stage ("Build") {
